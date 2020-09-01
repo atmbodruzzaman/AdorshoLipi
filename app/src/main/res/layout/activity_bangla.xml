@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".bangla">
+
+    <TextView
+        android:id="@+id/sorbornoTv"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="স্বরবর্ণ"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:onClick="sorborno"
+        android:background="@drawable/border_style"
+        />
+
+    <TextView
+        android:id="@+id/bangonbornoTv"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="ব্যঞ্জনবর্ণ"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:onClick="bangonborno"
+        android:background="@drawable/border_style"
+        />
+    <TextView
+        android:id="@+id/songkhaTv"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text=" সংখ্যা পরিচিতি"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:onClick="numberBangla"
+        android:background="@drawable/border_style"
+        />
+    <TextView
+        android:id="@+id/choraTv"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text=" ছড়া "
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:onClick="chora"
+        android:background="@drawable/border_style"
+        />
+    <!--<TextView
+        android:id="@+id/sobdotoiriTv"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="বর্ণ দিয়ে শব্দ তৈরি "
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:background="@drawable/border_style"
+        />-->
+
+    <TextView
+        android:id="@+id/likhaTv"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="বর্ণ লেখা শিখি"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:onClick="bornolikha"
+        android:background="@drawable/border_style"
+        />
+
+</LinearLayout>

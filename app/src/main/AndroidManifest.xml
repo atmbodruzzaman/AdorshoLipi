@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.borshon.sd4">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".newActivity" />
+        <activity android:name=".bangla" />
+        <activity android:name=".english" />
+        <activity android:name=".sadharongan" />
+        <activity android:name=".exam" />
+        <activity android:name=".sorborno" />
+        <activity android:name=".alphabetEnglish" />
+        <activity android:name=".numberEnglish" />
+        <activity android:name=".bangonborno" />
+        <activity android:name=".numberBangla" />
+        <activity android:name=".chora" />
+        <activity android:name=".poems" />
+        <activity android:name=".bornolikha" />
+        <activity android:name=".writeLetters"></activity>
+    </application>
+
+</manifest>
