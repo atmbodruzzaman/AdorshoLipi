@@ -37,7 +37,7 @@ public class ImageAdapter extends PagerAdapter {
         imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
         imageView.setImageResource(mImagesIDs[position]);
         container.addView(imageView,0);
-        Toast.makeText(mcontext, "Swap for more", Toast.LENGTH_LONG).show();
+        Toast.makeText(mcontext, "Swap for more", Toast.LENGTH_SHORT).show();
         return imageView;
     }
 
