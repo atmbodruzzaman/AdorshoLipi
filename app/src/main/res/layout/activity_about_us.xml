@@ -6,68 +6,62 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20sp"
-    android:background="#AFAF17"
+    android:background="#17514C"
+    android:weightSum="5"
     tools:context=".About_us">
 
-    <TextView
-        android:textStyle="bold"
-        android:layout_gravity="center"
-        android:textAllCaps="false"
-        android:text="Design and Developed :"
-        android:textSize="30sp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"></TextView>
+
 
     <LinearLayout
-        android:weightSum="8"
+        android:layout_weight="3"
+        android:weightSum="5"
         android:padding="20sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="0dp">
+
 
         <ImageView
+            android:layout_gravity="center"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
             android:src="@drawable/borshon_dev">
 
         </ImageView>
 
         <LinearLayout
-            android:layout_weight="6"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:weightSum="4"
+            android:layout_weight="3.5"
             android:orientation="vertical"
             android:layout_width="0dp"
             android:layout_height="wrap_content">
 
             <TextView
+                android:layout_weight="1"
                 android:textColor="#fff"
                 android:textStyle="bold"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
-                android:textSize="24sp"
                 android:textAllCaps="false"
                 android:text="A.T.M. Bodruzzaman"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"></TextView>
+                android:layout_height="0dp"></TextView>
             <TextView
+                android:layout_weight="1"
                 android:textStyle="bold"
                 android:textColor="#fff"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
-                android:textSize="18sp"
                 android:textAllCaps="false"
                 android:text="M.Sc in CSE at Jagannath University"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"></TextView>
+                android:layout_height="0dp"></TextView>
             <TextView
+                android:layout_weight="1"
                 android:textStyle="bold"
                 android:textColor="#fff"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
-                android:textSize="18sp"
                 android:textAllCaps="false"
                 android:text="Cell: +8801784952795"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"></TextView>
+                android:layout_height="0dp"></TextView>
 
 
         </LinearLayout>
