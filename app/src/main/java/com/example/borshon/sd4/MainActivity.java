@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
     String[] description;
     int[] icon;
     ArrayList<Model> arrayList = new ArrayList<Model>();
+    long backpressedTime;
+    Toast backToast;
 
 
     @Override
@@ -45,6 +47,22 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+    }
+
+    @Override
+    public void onBackPressed() {
+
+
+        if(backpressedTime+2000 > System.currentTimeMillis()){
+            backToast.cancel();
+            super.onBackPressed();
+            return;
+        }else {
+            backToast= Toast.makeText(getBaseContext(), "Press back again to exit", Toast.LENGTH_SHORT);
+            backToast.show();
+        }
+
+        backpressedTime = System.currentTimeMillis();
     }
 
     @Override
