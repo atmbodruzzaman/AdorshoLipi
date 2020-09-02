@@ -5,7 +5,9 @@ import android.support.annotation.NonNull;
 import android.support.v4.view.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class ImageAdapter extends PagerAdapter {
 
@@ -35,6 +37,7 @@ public class ImageAdapter extends PagerAdapter {
         imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
         imageView.setImageResource(mImagesIDs[position]);
         container.addView(imageView,0);
+        Toast.makeText(mcontext, "Swap for more", Toast.LENGTH_LONG).show();
         return imageView;
     }
 
