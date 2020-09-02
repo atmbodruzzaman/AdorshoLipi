@@ -4,25 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="10dp"
     tools:context=".numberBangla">
 
     <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true">
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <LinearLayout
+                android:weightSum="3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                >
 
                 <Button
                     android:id="@+id/zero"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="0"
                     android:textSize="60sp"
@@ -30,7 +36,8 @@
 
                 <Button
                     android:id="@+id/ak"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="১"
                     android:textSize="60sp"
@@ -38,7 +45,8 @@
 
                 <Button
                     android:id="@+id/dui"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="২"
                     android:textSize="60sp"
@@ -47,12 +55,15 @@
             </LinearLayout>
 
             <LinearLayout
+                android:weightSum="3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="0dp"
+                android:layout_weight="1">
 
                 <Button
                     android:id="@+id/tin"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="৩"
                     android:textSize="60sp"
@@ -60,7 +71,8 @@
 
                 <Button
                     android:id="@+id/chaar"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="৪"
                     android:textSize="60sp"
@@ -68,7 +80,8 @@
 
                 <Button
                     android:id="@+id/pach"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="৫"
                     android:textSize="60sp"
@@ -76,12 +89,15 @@
             </LinearLayout>
 
             <LinearLayout
+                android:weightSum="3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="0dp"
+                android:layout_weight="1">
 
                 <Button
                     android:id="@+id/choy"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="৬"
                     android:textSize="60sp"
@@ -89,7 +105,8 @@
 
                 <Button
                     android:id="@+id/shat"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="৭"
                     android:textSize="60sp"
@@ -97,7 +114,8 @@
 
                 <Button
                     android:id="@+id/aat"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="৮"
                     android:textSize="60sp"
@@ -105,12 +123,15 @@
             </LinearLayout>
 
             <LinearLayout
+                android:weightSum="3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="0dp"
+                android:layout_weight="1">
 
                 <Button
                     android:id="@+id/noy"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="৯"
                     android:textSize="60sp"
@@ -118,7 +139,8 @@
 
                 <Button
                     android:id="@+id/dosh"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="১০"
                     android:textSize="60sp"

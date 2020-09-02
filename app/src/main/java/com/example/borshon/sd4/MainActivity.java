@@ -1,11 +1,13 @@
 package com.example.borshon.sd4;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -40,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
 
         //bind the adapter to the list view
         listView.setAdapter(adapter);
+
+
 
     }
 
@@ -81,7 +85,14 @@ public class MainActivity extends AppCompatActivity {
         int id= item.getItemId();
         if(id==R.id.action_seting){
 
-            //do your sunctionality here
+            Intent intent  = new Intent(MainActivity.this,About_us.class);
+            startActivity(intent);
+
+            return true;
+        }
+        if(id==R.id.exit){
+
+            finish();
 
             return true;
         }

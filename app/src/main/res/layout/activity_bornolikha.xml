@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="10dp"
     tools:context=".bornolikha">
     <VideoView
         android:id="@+id/videoView"
@@ -12,525 +13,583 @@
         android:layout_height="180dp"/>
 
 
-
     <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            >
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="স্বরবর্ণ:"
-                android:textStyle="italic"
                 android:textSize="30sp"
-                />
+                android:textStyle="italic" />
+
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:weightSum="4"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <Button
                     android:id="@+id/S1"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="অ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/S2"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="আ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/S3"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ই"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/S4"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ঈ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:weightSum="4"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/S5"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="উ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/S6"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ঊ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/S7"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ঋ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/S8"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="এ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:weightSum="4"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/S9"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ঐ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/S10"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ও"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/S11"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ঔ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
             </LinearLayout>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="ব্যঞ্জনবর্ণ:"
-                android:textStyle="italic"
                 android:textSize="30sp"
-                />
+                android:textStyle="italic" />
+
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:weightSum="4"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <Button
                     android:id="@+id/B1"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ক"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B2"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="খ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B3"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="গ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B4"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ঘ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:weightSum="4"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/B5"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ঙ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B6"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="চ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B7"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ছ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B8"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="জ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:weightSum="4"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/B9"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ঝ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B10"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ঞ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B11"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ট"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B12"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ঠ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
             </LinearLayout>
 
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:weightSum="4"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <Button
                     android:id="@+id/B13"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ড"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B14"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ঢ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B15"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ণ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B16"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ত"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:weightSum="4"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/B17"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="থ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B18"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="দ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B19"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ধ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B20"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ন"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:weightSum="4"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/B21"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="প"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B22"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ফ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B23"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ব"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B24"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ভ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:weightSum="4"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <Button
                     android:id="@+id/B25"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ম"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B26"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="য"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B27"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="র"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B28"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ল"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:weightSum="4"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/B29"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="শ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B30"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ষ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B31"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="স"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B32"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="হ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:weightSum="4"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/B33"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ড়"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B34"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ঢ়"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B35"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ক্ষ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B36"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="য়"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:weightSum="4"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <Button
                     android:id="@+id/B37"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ৎ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B38"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ং"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B39"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ঃ"
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/B40"
-                    android:layout_width="80dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="ঁ "
-                    android:textStyle="bold"
                     android:textSize="60sp"
-                    />
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="গণিত:"
-                android:textStyle="italic"
                 android:textSize="30sp"
-                />
+                android:textStyle="italic" />
 
             <LinearLayout
+                android:weightSum="3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/Sunno"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="0"
                     android:textSize="60sp"
@@ -538,7 +597,8 @@
 
                 <Button
                     android:id="@+id/Ak"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="১"
                     android:textSize="60sp"
@@ -546,7 +606,8 @@
 
                 <Button
                     android:id="@+id/Dui"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="২"
                     android:textSize="60sp"
@@ -555,12 +616,14 @@
             </LinearLayout>
 
             <LinearLayout
+                android:weightSum="3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/Tin"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="৩"
                     android:textSize="60sp"
@@ -568,7 +631,8 @@
 
                 <Button
                     android:id="@+id/Chaar"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="৪"
                     android:textSize="60sp"
@@ -576,7 +640,8 @@
 
                 <Button
                     android:id="@+id/Pach"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="৫"
                     android:textSize="60sp"
@@ -584,12 +649,14 @@
             </LinearLayout>
 
             <LinearLayout
+                android:weightSum="3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/Choy"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="৬"
                     android:textSize="60sp"
@@ -597,7 +664,8 @@
 
                 <Button
                     android:id="@+id/Shat"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="৭"
                     android:textSize="60sp"
@@ -605,7 +673,8 @@
 
                 <Button
                     android:id="@+id/Aat"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="৮"
                     android:textSize="60sp"
@@ -613,12 +682,14 @@
             </LinearLayout>
 
             <LinearLayout
+                android:weightSum="3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/Noy"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="৯"
                     android:textSize="60sp"
@@ -626,7 +697,8 @@
 
                 <Button
                     android:id="@+id/Dosh"
-                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="১০"
                     android:textSize="60sp"

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="10dp"
     tools:context=".bangla">
 
     <TextView
@@ -56,17 +57,17 @@
         android:onClick="chora"
         android:background="@drawable/border_style"
         />
-    <!--<TextView
-        android:id="@+id/sobdotoiriTv"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:text="বর্ণ দিয়ে শব্দ তৈরি "
-        android:textColor="#000"
-        android:textStyle="bold"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:background="@drawable/border_style"
-        />-->
+<!--    <TextView
+    android:id="@+id/sobdotoiriTv"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:text="বর্ণ দিয়ে শব্দ তৈরি "
+    android:textColor="#000"
+    android:textStyle="bold"
+    android:textSize="30sp"
+    android:textAlignment="center"
+    android:background="@drawable/border_style"
+    />-->
 
     <TextView
         android:id="@+id/likhaTv"
